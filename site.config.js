@@ -7,9 +7,9 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '电脑学会',
+  name: '隆中华电脑学会',
   domain: 'computersociety.my',
-  author: '电脑学会执委',
+  author: '电脑学会执委团',
 
   // open graph metadata (optional)
   description: '吉隆坡中华独立中学电脑学会',
@@ -32,7 +32,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'bryanlue721/cs-utterances',
+  utterancesGitHubRepo: '',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
@@ -47,5 +47,10 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
+  pageUrlOverrides: {
+     '/about': '4cad3f99069247c0a8c5e375d679922e',
+     '/courses': 'f1991cc8eb4c482f98ff4da7e632dbb5',
+     '/committee': '8d653ed977d44fa4a45a3affbf376c2d',
+     '/contact': 'e6e08532d6c045c7a78cdee4602ac730',
+    }
 }
