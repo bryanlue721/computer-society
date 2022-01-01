@@ -12,9 +12,9 @@ module.exports = {
   author: '电脑学会执委团',
 
   // open graph metadata (optional)
-  description: '吉隆坡中华独立中学电脑学会',
-  socialImageTitle: '电脑学会',
-  socialImageSubtitle: '吉隆坡中华独立中学',
+  description: '吉隆坡中华独立中学电脑学会 CHKL Computer Society',
+  socialImageTitle: '吉隆坡中华独立中学电脑学会 CHKL Computer Society',
+  socialImageSubtitle: '吉隆坡中华独立中学电脑学会 CHKL Computer Society',
 
   // social usernames (optional)
   twitter: '',
