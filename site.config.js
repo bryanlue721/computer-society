@@ -7,7 +7,7 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '隆中华电脑学会',
+  name: '隆中华电脑学会 CHKL Computer Society',
   domain: 'computersociety.my',
   author: '电脑学会执委团',
 
