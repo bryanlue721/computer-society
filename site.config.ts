@@ -2,24 +2,24 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '39508952247945abbbd427ec0dcc1308',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: 'd720531f-5391-43c8-bb8e-61334bd09b91',
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: '隆中华电脑学会 CHKL Computer Society',
+  domain: 'www.computersociety.my',
+  author: 'ComSoc Committees',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Join the CHKL Computer Society (CHKL ComSoc) - a community of tech enthusiasts and learners! Explore the latest trends in computer science, enhance your skills, and participate in exciting events and projects. Connect with like-minded individuals and expand your horizons with us! 加入隆中华电脑学会，一起探索电脑科学的奥秘！',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: null,
+  github: null,
+  linkedin: null,
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -42,24 +42,32 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+     '/about': '4cad3f99069247c0a8c5e375d679922e',
+     '/courses': 'f1991cc8eb4c482f98ff4da7e632dbb5',
+     '/committee': '8d653ed977d44fa4a45a3affbf376c2d',
+     '/contact': 'e6e08532d6c045c7a78cdee4602ac730'
+   }
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  navigationStyle: 'custom',
+  navigationLinks: [
+     {
+       title: '关于学会',
+       pageId: '4cad3f99069247c0a8c5e375d679922e'
+     },
+     {
+       title: '课程内容',
+       pageId: 'f1991cc8eb4c482f98ff4da7e632dbb5'
+     },
+     {
+      title: '执委名单',
+      pageId: '8d653ed977d44fa4a45a3affbf376c2d'
+     },
+     {
+      title: '联系我们',
+      pageId: 'e6e08532d6c045c7a78cdee4602ac730'
+     }
+   ]
 })
