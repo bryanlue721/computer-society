@@ -47,7 +47,7 @@ export default siteConfig({
      '/courses': 'f1991cc8eb4c482f98ff4da7e632dbb5',
      '/committee': '8d653ed977d44fa4a45a3affbf376c2d',
      '/contact': 'e6e08532d6c045c7a78cdee4602ac730'
-   }
+   },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
