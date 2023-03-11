@@ -17,9 +17,9 @@ export default siteConfig({
   description: 'Join the CHKL Computer Society (CHKL ComSoc) - a community of tech enthusiasts and learners! Explore the latest trends in computer science, enhance your skills, and participate in exciting events and projects. Connect with like-minded individuals and expand your horizons with us! 加入隆中华电脑学会，一起探索电脑科学的奥秘！',
 
   // social usernames (optional)
-  twitter: null,
-  github: null,
-  linkedin: null,
+  github: 'cschklorg',
+  instagram: 'cs.chkl',
+  facebook: 'cs.chkl',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
