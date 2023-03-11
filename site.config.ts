@@ -51,23 +51,24 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'custom',
-  navigationLinks: [
-     {
-       title: '关于学会',
-       pageId: '4cad3f99069247c0a8c5e375d679922e'
-     },
-     {
-       title: '课程内容',
-       pageId: 'f1991cc8eb4c482f98ff4da7e632dbb5'
-     },
-     {
-      title: '执委名单',
-      pageId: '8d653ed977d44fa4a45a3affbf376c2d'
-     },
-     {
-      title: '联系我们',
-      pageId: 'e6e08532d6c045c7a78cdee4602ac730'
-     }
-   ]
+  navigationStyle: 'default'
+  // navigationStyle: 'default',
+  // navigationLinks: [
+  //   {
+  //     title: '关于学会',
+  //     pageId: '4cad3f99069247c0a8c5e375d679922e'
+  //   },
+  //   {
+  //     title: '课程内容',
+  //     pageId: 'f1991cc8eb4c482f98ff4da7e632dbb5'
+  //   },
+  //   {
+  //    title: '执委名单',
+  //    pageId: '8d653ed977d44fa4a45a3affbf376c2d'
+  //   },
+  //   {
+  //    title: '联系我们',
+  //    pageId: 'e6e08532d6c045c7a78cdee4602ac730'
+  //   }
+  // ]
 })
