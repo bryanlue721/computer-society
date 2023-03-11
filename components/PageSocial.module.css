@@ -104,6 +104,13 @@
   );
 }
 
+.facebook .actionBgPane {
+  background: #1877f2;
+}
+.facebook:hover {
+  border-color: #1877f2;
+}
+
 .github .actionBgPane {
   background: #c9510c;
 }
